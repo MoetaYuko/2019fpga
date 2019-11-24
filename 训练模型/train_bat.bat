@@ -1,0 +1,2 @@
+".\opencv_traincascade.exe"  -data ".\TrainCascadeClassification" -vec pos.vec -bg neg.txt -numPos 26 -numNeg 32 -numStages 15 -precalcValBufSize  3000  -precalcIdxBufSize  3000 -featureType LBP  -w 80 -h 80 
+Pause 
